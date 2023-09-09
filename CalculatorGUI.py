@@ -12,8 +12,8 @@ class CalcGUI:
         display = ttk.Frame(root, width=400,height=130)
         display.pack_propagate(0)       
         display.grid(row=0,column=0)
-        result = ttk.Label(display,background="red")
-        result.pack(expand=True,fill="both", padx=1, pady=1)
+        result = ttk.Label(display,background="red", relief="solid")
+        result.pack(expand=True,fill="both", padx=10, pady=10)
         buttons = ttk.Frame(root, width=400,height=370)
         buttons.pack_propagate(0)
 
